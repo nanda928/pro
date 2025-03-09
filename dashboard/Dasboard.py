@@ -7,7 +7,7 @@ from datetime import datetime
 
 # Load data
 day_df = pd.read_csv('dashboard/day.csv')
-hour_df = pd.read_csv('hour.csv')
+hour_df = pd.read_csv('dashboard/hour.csv')
 
 # Judul Dashboard
 st.title('Analisis Data Peminjaman Sepeda')
