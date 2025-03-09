@@ -6,7 +6,7 @@ import seaborn as sns
 from datetime import datetime
 
 # Load data
-day_df = pd.read_csv('day.csv')
+day_df = pd.read_csv('dashboard/day.csv')
 hour_df = pd.read_csv('hour.csv')
 
 # Judul Dashboard
