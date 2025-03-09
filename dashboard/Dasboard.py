@@ -39,7 +39,7 @@ def pola_penggunaan():
     ax.set_xlabel('Bulan')
     st.pyplot(fig)
     
-    # Pola penggunaan berdasarkan jam
+     # Pola penggunaan berdasarkan jam
     st.subheader('Pola Penggunaan Berdasarkan Jam')
     hourly_avg = hour_df.groupby('hr')['cnt'].mean()
     fig, ax = plt.subplots()
