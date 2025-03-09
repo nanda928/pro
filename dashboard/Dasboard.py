@@ -43,7 +43,7 @@ def pola_penggunaan():
     st.subheader('Pola Penggunaan Berdasarkan Jam')
     hourly_avg = hour_df.groupby('hr')['cnt'].mean()
     fig, ax = plt.subplots()
-    hourly_avg.plot(kind='line', ax=ax)
+    hourly_avg_hour.plot(kind='line', ax=ax)
     ax.set_ylabel('Rata-rata Peminjaman')
     ax.set_xlabel('Jam')
     st.pyplot(fig)
